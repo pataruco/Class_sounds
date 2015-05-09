@@ -4,10 +4,10 @@ $(document).ready(function(){
     url: 'audiofiles',
     onready: function() {
       var spanish = soundManager.createSound({
-        id:'spanish',
+        // id:'spanish',
         url: 'audiofiles/spanish.mp3'
       })
-    $('.greeting').on("click", spanish.play());
+    $('.greeting').on("click", spanish.play);
 
     function showGreeting (){
       var output = "WDI 13 speaks " + $(this).attr('id');
@@ -15,7 +15,7 @@ $(document).ready(function(){
     }
 
 
-      spanish.play();
+      // spanish.play();
     }
   }); //soundmanager
 
