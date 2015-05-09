@@ -1,8 +1,13 @@
 body {
   background-color: #be2801;
-  background-image: url(http://pataruco.s3.amazonaws.com/ga/soundboard/super_mario_bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+
+
+.header_image{
+  height: 150px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 button  {
@@ -10,6 +15,15 @@ button  {
   height: 100px;
   background-image: url(http://pataruco.s3.amazonaws.com/ga/soundboard/box.jpg);
   border-color: rgba(0,0,0, .3);
-  padding: 1%;
+  margin: 1%;
 }
 
+.column1 {
+  height: auto;
+  width: 20%;
+}
+
+.column2 {
+  height: auto;
+  width: 80%;
+}
