@@ -31,13 +31,67 @@ $(document).ready(function(){
       var italian = soundManager.createSound({
         url: 'audiofiles/italian.mp3'
       });
+      var oneup = soundManager.createSound({
+        url: 'audiofiles/1up.mp3'
+      });
+      var coin = soundManager.createSound({
+        url:'audiofiles/coin.mp3'
+      });
+      var fire = soundManager.createSound({
+        url: 'audiofiles/fire.mp3'
+      });
+      var fly = soundManager.createSound({
+        url:'audiofiles/fly.mp3'
+      });
+      var game_over = soundManager.createSound({
+        url: 'audiofiles/game_over.mp3'
+      });
+      var goompa = soundManager.createSound({
+        url:'audiofiles/goompa.mp3'
+      });
+      var jump = soundManager.createSound({
+        url:'audiofiles/jump.mp3'
+      });
+      var mushroom = soundManager.createSound({
+        url:'audiofiles/mushroom.mp3'
+      });
+      var pause = soundManager.createSound({
+        url:'audiofiles/pause.mp3'
+      });
+      var pipe = soundManager.createSound({
+        url:'audiofiles/pipe.mp3'
+      });
+      var tail = soundManager.createSound({
+        url:'audiofiles/tail.mp3'
+      });
+      var thwomp = soundManager.createSound({
+        url:'audiofiles/thwomp.mp3'
+      });
+
+
+
 
     // -----eventListener-----
     $('#Spanish').on("click", spanish.play);
     $('#English').on("click", english.play);
     $('#Chinese').on("click", chinese.play);
     $('#French').on("click", french.play);
-    $('#Italian').on("click" ,italian.play);
+    $('#Italian').on("click" , italian.play);
+    $('#oneup').on("click", oneup.play);
+    $('#coin').on("click", coin.play);
+    $('#fire').on("click", fire.play);
+    $('#fly').on("click", fly.play);
+    $('#game_over').on("click", game_over.play);
+    $('#goompa').on("click", goompa.play);
+    $('#jump').on("click", jump.play);
+    $('#mushroom').on("click", mushroom.play);
+    $('#pipe').on("click", pipe.play);
+    $('#tail').on("click", tail.play);
+    $('#thwomp').on("click", thwomp.play);
+
+
+
+
 
 
 
