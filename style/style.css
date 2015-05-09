@@ -2,12 +2,26 @@ body {
   background-color: #be2801;
 }
 
-
-
 .header_image{
   height: 150px;
-  display: inline-block;
+  display: block;
   margin: 0 auto;
+}
+
+/*main {
+  display:inline-block;
+}*/
+
+#column1 {
+  display: inline-block;
+  width: 
+  height: 20%;
+}
+
+#column2 {
+  display: inline-block;
+  width: 80%;
+  height: 80%;
 }
 
 button  {
@@ -18,12 +32,8 @@ button  {
   margin: 1%;
 }
 
-.column1 {
-  height: auto;
-  width: 20%;
+.mario {
+display: inline-block;
+height: 50%;
 }
 
-.column2 {
-  height: auto;
-  width: 80%;
-}
