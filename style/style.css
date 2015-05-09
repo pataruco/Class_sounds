@@ -1,23 +1,15 @@
-audio:hover, audio:focus, audio:active audio:controls 
-{
--webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
--moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
--webkit-transform: scale(1.05);
--moz-transform: scale(1.05);
-transform: scale(1.05);
+body {
+  background-color: #be2801;
+  background-image: url(http://pataruco.s3.amazonaws.com/ga/soundboard/super_mario_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-audio
-{
--webkit-transition:all 0.5s linear;
--moz-transition:all 0.5s linear;
--o-transition:all 0.5s linear;
-transition:all 0.5s linear;
--moz-box-shadow: 2px 2px 4px 0px #006773;
--webkit-box-shadow:  2px 2px 4px 0px #006773;
-box-shadow: 2px 2px 4px 0px #006773;
--moz-border-radius:7px 7px 7px 7px ;
--webkit-border-radius:7px 7px 7px 7px ;
-border-radius:7px 7px 7px 7px ;
+button  {
+  width: 100px;
+  height: 100px;
+  background-image: url(http://pataruco.s3.amazonaws.com/ga/soundboard/box.jpg);
+  border-color: rgba(0,0,0, .3);
+  padding: 1%;
 }
+
