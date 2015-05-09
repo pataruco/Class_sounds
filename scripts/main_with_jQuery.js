@@ -67,12 +67,7 @@ $(document).ready(function(){
     $('#tail').on("click", tail.play);
     $('#thwomp').on("click", thwomp.play);
 
-
-
-
-
-
-
     } // oneready
   }); // soundManager
+
 }); // $(document).ready
