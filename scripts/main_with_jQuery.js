@@ -25,11 +25,19 @@ $(document).ready(function(){
       var chinese = soundManager.createSound({
         url: 'audiofiles/chinese.mp3'
       });
+      var french = soundManager.createSound({
+        url: 'audiofiles/french.mp3'
+      });
+      var italian = soundManager.createSound({
+        url: 'audiofiles/italian.mp3'
+      });
 
     // -----eventListener-----
     $('#Spanish').on("click", spanish.play);
     $('#English').on("click", english.play);
     $('#Chinese').on("click", chinese.play);
+    $('#French').on("click", french.play);
+    $('#Italian').on("click" ,italian.play);
 
 
 
