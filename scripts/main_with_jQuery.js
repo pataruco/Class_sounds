@@ -16,21 +16,6 @@ $(document).ready(function(){
     url: 'audiofiles',
     onready: function() {
       // ------Sounds-------
-      var spanish = soundManager.createSound({
-        url: 'audiofiles/spanish.mp3'
-      });
-      var english = soundManager.createSound({
-        url: 'audiofiles/english.mp3'
-      });
-      var chinese = soundManager.createSound({
-        url: 'audiofiles/chinese.mp3'
-      });
-      var french = soundManager.createSound({
-        url: 'audiofiles/french.mp3'
-      });
-      var italian = soundManager.createSound({
-        url: 'audiofiles/italian.mp3'
-      });
       var oneup = soundManager.createSound({
         url: 'audiofiles/1up.mp3'
       });
@@ -68,15 +53,7 @@ $(document).ready(function(){
         url:'audiofiles/thwomp.mp3'
       });
 
-
-
-
     // -----eventListener-----
-    $('#Spanish').on("click", spanish.play);
-    $('#English').on("click", english.play);
-    $('#Chinese').on("click", chinese.play);
-    $('#French').on("click", french.play);
-    $('#Italian').on("click" , italian.play);
     $('#oneup').on("click", oneup.play);
     $('#coin').on("click", coin.play);
     $('#fire').on("click", fire.play);
@@ -85,6 +62,7 @@ $(document).ready(function(){
     $('#goompa').on("click", goompa.play);
     $('#jump').on("click", jump.play);
     $('#mushroom').on("click", mushroom.play);
+    $('#pause').on("click", pause.play);
     $('#pipe').on("click", pipe.play);
     $('#tail').on("click", tail.play);
     $('#thwomp').on("click", thwomp.play);
