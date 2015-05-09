@@ -1,3 +1,7 @@
+/*body {
+  background-color: #be2801;
+}
+*/
 body {
   background-color: #be2801;
 }
@@ -8,20 +12,23 @@ body {
   margin: 0 auto;
 }
 
-/*main {
-  display:inline-block;
-}*/
-
 #column1 {
   display: inline-block;
-  width: 
-  height: 20%;
+  margin: 0 auto;
+  border-bottom: 0px;
+  background-color: blue;
 }
 
 #column2 {
   display: inline-block;
-  width: 80%;
-  height: 80%;
+  margin: 0 auto;
+  width: 70%;
+  background-color: yellow;
+}
+
+.row {
+  display: block;
+  background-color: pink;
 }
 
 button  {
@@ -32,8 +39,10 @@ button  {
   margin: 1%;
 }
 
-.mario {
-display: inline-block;
-height: 50%;
+#display_sounds {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  margin: 0 auto;
 }
 
