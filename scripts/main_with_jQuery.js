@@ -69,8 +69,4 @@ $(document).ready(function(){
     $('#thwomp').on("click", thwomp.play);
     } // oneready
   }); // soundManager
-
-  $('.sounds_keys').on("click", function showKeys () {
-      console.log('key pressed')});
-
 }); // $(document).ready
