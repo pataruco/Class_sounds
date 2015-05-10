@@ -69,4 +69,13 @@ $(document).ready(function(){
     $('#thwomp').on("click", thwomp.play);
     } // oneready
   }); // soundManager
+
+  // Funcion to show keys 
+  function showKeys (event){
+  $('.hidden').css("visibility", "visible");
+  }
+
+  // eventListener
+  $('img.mario').on("click", showKeys);
+
 }); // $(document).ready

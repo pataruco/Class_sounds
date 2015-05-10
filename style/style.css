@@ -27,7 +27,7 @@ body {
 
 img.mario {
   display: block;
-  margin-bottom: -80px;
+  margin-bottom: -120px;
 }
 
 button  {
@@ -37,6 +37,7 @@ button  {
   border-color: rgba(0,0,0, .3);
   margin: 1%; 
 }
+  
 
 p.hidden {
   color: rgba(255, 255, 255, .8);
