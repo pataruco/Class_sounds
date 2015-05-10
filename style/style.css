@@ -12,24 +12,25 @@ body {
   margin: 0 auto;
 }
 
-#column1 {
+.column1 {
   display: inline-block;
-  margin: 0 auto;
+  margin-left: 0px;
   border-bottom: 0px;
   background-color: blue;
 }
 
-#column2 {
+.column2 {
   display: inline-block;
   margin: 0 auto;
   width: 70%;
   background-color: yellow;
 }
 
-.row {
+img.mario {
   display: block;
-  background-color: pink;
+  margin-bottom: -10%;
 }
+
 
 button  {
   width: 100px;
@@ -37,6 +38,17 @@ button  {
   background-image: url(http://pataruco.s3.amazonaws.com/ga/soundboard/box.jpg);
   border-color: rgba(0,0,0, .3);
   margin: 1%;
+ /* display: block;
+  margin: 0 auto;*/
+
+}
+
+.row {
+  background-color: pink;
+  display: block;
+  margin-left: 25%;
+  vertical-align: center;
+
 }
 
 #display_sounds {
