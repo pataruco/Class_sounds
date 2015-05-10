@@ -70,4 +70,7 @@ $(document).ready(function(){
     } // oneready
   }); // soundManager
 
+  $('.sounds_keys').on("click", function showKeys () {
+      console.log('key pressed')});
+
 }); // $(document).ready

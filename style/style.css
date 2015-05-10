@@ -54,23 +54,12 @@ button  {
 
 }
 
-.keys {
-  display: inline-block;
-  height: 100px;
-  width:200px;
-  margin: 1%;
-  background-color: purple;
-  margin-left: 30%;
-  
-
-}
-
-.sounds{
-  display: inline-block;
+.sounds_keys {
   height: 100px;
   width:200px;
   margin: 1%;
   background-color: black;
+  margin: 0 auto;
   
 }
 
