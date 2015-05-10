@@ -17,6 +17,7 @@ body {
   margin-left: 0px;
   border-bottom: 0px;
   background-color: blue;
+  width: 25%;
 }
 
 .column2 {
@@ -24,6 +25,7 @@ body {
   margin: 0 auto;
   width: 70%;
   background-color: yellow;
+  position: relative;
 }
 
 img.mario {
@@ -47,14 +49,28 @@ button  {
   background-color: pink;
   display: block;
   margin-left: 25%;
-  vertical-align: center;
+  
+
 
 }
 
-#display_sounds {
-  width: 200px;
+.keys {
+  display: inline-block;
   height: 100px;
-  background-color: green;
-  margin: 0 auto;
+  width:200px;
+  margin: 1%;
+  background-color: purple;
+  margin-left: 30%;
+  
+
+}
+
+.sounds{
+  display: inline-block;
+  height: 100px;
+  width:200px;
+  margin: 1%;
+  background-color: black;
+  
 }
 

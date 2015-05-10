@@ -55,6 +55,7 @@ $(document).ready(function(){
 
     // -----eventListener-----
     $('#oneup').on("click", oneup.play);
+    $('#oneup').on("click", oneup.play);
     $('#coin').on("click", coin.play);
     $('#fire').on("click", fire.play);
     $('#fly').on("click", fly.play);
@@ -66,7 +67,6 @@ $(document).ready(function(){
     $('#pipe').on("click", pipe.play);
     $('#tail').on("click", tail.play);
     $('#thwomp').on("click", thwomp.play);
-
     } // oneready
   }); // soundManager
 
