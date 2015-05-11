@@ -75,7 +75,13 @@ $(document).ready(function(){
   $('.hidden').css("visibility", "visible");
   }
 
+  function noShowKeys (event){
+    $('.hidden').css("visibility", "hidden");
+  }
+
   // eventListener
-  $('img.mario').on("click", showKeys);
+  $('img.mario').on("mouseover", showKeys);
+  $('img.mario').on("mouseout", noShowKeys);
+
 
 }); // $(document).ready
