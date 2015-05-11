@@ -46,7 +46,7 @@ button:hover {
 
 
 p.hidden {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, 1);
   font-size: 15px;
   visibility: hidden;
 }
