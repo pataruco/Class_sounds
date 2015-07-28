@@ -1,5 +1,5 @@
-body {
-  background-image: url(background.jpg);
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
 
@@ -46,6 +46,12 @@ button:hover {
 
 
 p.hidden {
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  visibility: hidden;
+}
+
+p.hidden_keys {
   color: rgba(255, 255, 255, 1);
   font-size: 15px;
   visibility: hidden;

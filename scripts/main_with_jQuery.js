@@ -1,16 +1,3 @@
-/* 
-Things I would like to accomplish:
------------------------------------
-1. Make soundManager work.
-2. Make a sound.
-3. Play a sound.
-4. Link a eventListener to play a sound.
-5. Make more buttons and link them to sounds.
-6. Make the layout of the page.
-7. Make the style of the page.
-8. Feel me proud because I done it!
-9. Celebrate and get drunk!*/
-
 $(document).ready(function(){
   soundManager.setup({
     url: 'audiofiles',
@@ -79,9 +66,78 @@ $(document).ready(function(){
     $('.hidden').css("visibility", "hidden");
   }
 
-  // eventListener
+  // eventListener to show keys
   $('img.mario').on("mouseover", showKeys);
   $('img.mario').on("mouseout", noShowKeys);
 
+  //Function to show the keyboard
+  function showKeyboard (event){
+  $('.hidden_keys').css("visibility", "visible");
+  }
+
+  function noShowKeyboard (event){
+  $('.hidden_keys').css("visibility", "hidden");
+  }
+
+  // eventListener to show the keyboard
+  $('header_image').on("mouseover", showKeyboard);
+  $('header_image').on("mouseout", noShowKeyboard);
+
+
+
+  // On keypress
+
+  function playSound(filename) {
+    console.log(filename);
+    var sound = soundManager.createSound({
+      url: 'audiofiles/' + filename
+    });
+    sound.play();
+  }
+
+  $(document).on('keypress', function (e) {
+    console.log(event.keyCode);
+    switch(e.keyCode) {
+      case 113:
+        playSound('1up.mp3');
+        break;
+      case 119:
+        playSound('coin.mp3');
+        break;
+      case 101:
+        playSound('fire.mp3');
+        break;
+      case 114:
+        playSound('fly.mp3');
+        break;
+      case 97:
+        playSound('game_over.mp3');
+        break;
+      case 115:
+        playSound('goompa.mp3');
+        break;
+      case 100:
+        playSound('jump.mp3');
+        break;
+      case 102:
+        playSound('mushroom.mp3');
+        break;
+      case 122:
+        playSound('pause.mp3');
+        break;
+      case 120:
+        playSound('pipe.mp3');
+        break;
+      case 99:
+        playSound('tai.mp3');
+        break;
+      case 118:
+        playSound('thwomp.mp3');
+        break;
+      default:
+        console.log('no sounds');        
+    }
+  }
+  );
 
 }); // $(document).ready
