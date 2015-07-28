@@ -134,6 +134,18 @@ $(document).ready(function(){
       case 118:
         playSound('thwomp.mp3');
         break;
+      case 49:
+        playSound('theme-main.mp3');
+        break;
+      case 50:
+        playSound('theme-koopa.mp3');
+        break;
+      case 51:
+        playSound('theme-star.mp3');
+        break;
+      case 52:
+        playSound('theme-underwater.mp3');
+        break;
       default:
         console.log('no sounds');        
     }
