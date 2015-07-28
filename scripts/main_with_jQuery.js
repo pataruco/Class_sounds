@@ -129,7 +129,7 @@ $(document).ready(function(){
         playSound('pipe.mp3');
         break;
       case 99:
-        playSound('tai.mp3');
+        playSound('tail.mp3');
         break;
       case 118:
         playSound('thwomp.mp3');
