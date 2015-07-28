@@ -72,16 +72,19 @@ $(document).ready(function(){
 
   //Function to show the keyboard
   function showKeyboard (event){
-  $('.hidden_keys').css("visibility", "visible");
+    $('.hidden_keys').css("visibility", "visible");
+    showKeys();
+
   }
 
   function noShowKeyboard (event){
-  $('.hidden_keys').css("visibility", "hidden");
+    $('.hidden_keys').css("visibility", "hidden");
+    noShowKeys();
   }
 
   // eventListener to show the keyboard
-  $('header_image').on("mouseover", showKeyboard);
-  $('header_image').on("mouseout", noShowKeyboard);
+  $('.header_image').on("mouseover", showKeyboard);
+  $('.header_image').on("mouseout", noShowKeyboard);
 
 
 

@@ -1,11 +1,20 @@
 # Super Mario Bros Sound Board
 
+My name is Pedro Martin.
 
+Currently (May 2015) I am a student at London General Assembly Web Development Immersive Course.
 
+The second week assignment was to make a sound board page.
 
+My inspiration was my favoutite video game, Super Mario Bros I.
 
-## General Assembly 
+The technologies I used were:
 
-*London WDI 13*
+* HTML 5.
+* JavaScript.
+* jQuery.
+* SoundBoard.js.
 
-Using jQuery and SoundManager 2 I created a page with my favourites sounds of Mario Bros I
+Take a look:  [http://bit.ly/SuperMarioSoundBoard]( http://bit.ly/SuperMarioSoundBoard)
+
+![](http://pataruco.s3.amazonaws.com/ga/Class_sounds/mario-screen.png)
